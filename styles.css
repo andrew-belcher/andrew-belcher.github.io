@@ -1,0 +1,25 @@
+body {
+    font-family: 'DM Sans', sans-serif;
+    color: white;
+    
+    background-image: url('assets/gradient.png');
+    background-color: black;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+li {
+    display: inline-block;
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 50px 0 50px;
+}
