@@ -9,7 +9,7 @@
 </head>
 <body>
     <nav id="home-nav">
-        <div class="logo"><a href="./"><img src="assets/init-j.png" width="40"></a></div>
+        <div class="logo"><a href="./"><img class="image-icon" src="assets/init.png" width="50px" height="55"></a></div>
         <div>
             <ul class="nav-links">
                 <li><a class="nav-item" href="#about">about</a></li>
@@ -20,7 +20,7 @@
         </div>
     </nav>
     <nav id="hamburger-nav">
-        <div class="logo"><a href="./"><img src="assets/init-j.png" width="40"></a></div>
+        <div class="logo"><a href="./"><img class="image-icon" src="assets/init.png" width="50px" height="55px"></a></div>
         <div class="hamburger-menu">
             <div class="hamburger-icon" onclick="toggleMenu()">
             <span></span>
@@ -29,8 +29,8 @@
             </div>
             <div class="menu-links">
                 <li><a class="nav-item" href="#about" onclick="toggleMenu()">about</a></li>
-                <li><a class="nav-item" href="#experience" onclick="toggleMenu()">experience</a></li>
-                <li><a class="nav-item" href="#projects" onclick="toggleMenu()">projects</a></li>
+                <!-- <li><a class="nav-item" href="#experience" onclick="toggleMenu()">experience</a></li>
+                <li><a class="nav-item" href="#projects" onclick="toggleMenu()">projects</a></li> -->
                 <li><a class="nav-item" href="#contact" onclick="toggleMenu()">contact</a></li>
             </div>
         </div>
@@ -41,7 +41,7 @@
             <h1 class="title">andrew belcher</h1>
             <div class="btn-container">
                 <button class="btn btn-color-2" onclick="window.open('./assets/resume.pdf')">resume</button>
-                <button class="btn btn-color-1" onclick="location.href='./#contact'">contact</button>
+                <a class="button" href="mailto:anbelche@ucsc.edu"><button class="btn btn-color-1">contact</button></a>
             </div>
             <div id="socials-container">
                 <img src="./assets/linkedin.png"
